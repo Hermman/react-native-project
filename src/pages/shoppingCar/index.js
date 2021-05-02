@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 
 const ShoppingCar = (props) => {
   return (
-    <View>
+    <View style={{backgroundColor: 'green'}}>
       <Text>shopping car page</Text>
     </View>
   )

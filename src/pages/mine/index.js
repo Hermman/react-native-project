@@ -3,7 +3,7 @@ import {View, Text} from 'react-native'
 
 const Mine = (props) => {
   return (
-    <View>
+    <View style={{backgroundColor: 'yellow'}}>
       <Text>me page</Text>
     </View>
   )
