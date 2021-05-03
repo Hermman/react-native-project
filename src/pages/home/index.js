@@ -1,10 +1,14 @@
 import React from 'react'
-import {View, Text} from 'react-native'
+import { View } from 'react-native'
+// import FlexLayout from '@components/flex/FlexLayout'
+import TodoList from '@components/TodoList'
 
 const Home = (props) => {
+
   return (
-    <View style={{backgroundColor: 'red'}}>
-      <Text>home page</Text>
+    <View>
+      {/* <FlexLayout /> */}
+      <TodoList />
     </View>
   )
 }
